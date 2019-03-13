@@ -1,0 +1,5 @@
+{
+  "Firstname":"{{jsonPath request.body '$.name'}}",
+  "company": "Nav",
+  "country": "Norge"
+}
